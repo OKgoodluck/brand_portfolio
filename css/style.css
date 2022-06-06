@@ -1,3 +1,155 @@
 @charset "utf-8";
 
-html{font-size: 62.5%;}
+html{font-family: 'Crimson Text', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Serif 4', serif;
+  font-size: 62.5%;}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+p{
+    font-size: 0.3rem;
+}
+
+ul{list-style: none;}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+/* mainvisual */
+.content{height: 70vh;display: flex;align-items: center;}
+
+.mainvisual{
+    max-width: 1500px;
+    margin: 40px 40px 0 40px;
+}
+
+.mainvisual img{
+    width: 90vw;
+}
+
+/* header */
+header{
+    margin: 0 40px 0 40px;
+    display: flex;
+    justify-content: flex-start;
+    width: 90vw;
+    align-items: center;
+}
+
+.site-title{
+    width: 110px;
+    line-height: 1;
+}
+
+.site-title img{
+    width: 100%;
+}
+
+.site-title a{
+    display: block;
+}
+
+#header nav ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+#header nav ul li{
+    padding-right: 2rem;
+}
+
+.section-title {}
+/* header .nav{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+header .nav #nav-title{padding-right: 4.5rem;font-weight: bold;font-size: 1.5rem;}
+
+header .nav li{
+    font-size: 1.5rem;
+    margin-right: 1.7rem;
+} */
+
+/* feature */
+.feature{
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 3.5rem auto;
+    align-items: center;
+    padding-top: 3.5rem;
+}
+
+.feature img{width: 382px;/* margin-right: 8.5rem; */}
+
+.section-title{
+    font-size: 1.9rem;
+}
+
+.section-subtitle{
+    font-size: 1.3rem;
+    margin: 0.3rem 0 0.7rem;
+}
+
+#concept-reverce{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-reverce{
+    margin-right: 5.5rem;
+}
+
+
+.content .img{
+    width: 50%;
+    height: auto;
+}
+
+.content img{
+    width: 100%;
+}
+
+.content .text{
+    margin-left: 5.5rem;
+}
+
+/* feature-reverce */
+
+.feature-reverce{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.feature-reverce img{width: 50%;/* margin-left: 7.5rem; *//* padding-left: 18rem; */}
+
+/* footer */
+
+#footer{
+    width: 1000px;
+    padding: 2.5rem;
+    margin: auto;
+}
+
+#footer ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#footer ul #bold{
+    font-weight: bold;
+    font-size: 0.8rem;
+}

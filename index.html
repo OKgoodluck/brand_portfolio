@@ -4,59 +4,80 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Playfair+Display&family=Roboto:ital,wght@1,300&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;1,8..60,200&display=swap" rel="stylesheet">
   <title>Brand shop</title>
 </head>
 <body>
-  <div class="content">
     <div class="mainvisual">
       <img src="./img/mainvisual.jpg" alt="メイン">
     </div>
-    <header>
-      <ul class="nav">
-        <li><a href="#">Concept</a></li>
-        <li><a href="#">Work</a> </li>
-        <!-- メーラー立ち上げ -->
-        <li>Contact</li> 
-      </ul>
-    </header>
-  </div>
+    
+    <header id="header">
+      <h1 class="site-title">
+        <a href="#"><img src="./img/logo.svg" alt=""></a>
+      </h1>
 
+      <nav>
+        <ul>
+          <li><a href="#">Concept</a></li>
+          <li><a href="#">Work</a> </li>
+          <!-- メーラー立ち上げ -->
+          <li><a href="mailto:xxxxxx@xxx.xxx.com?subject=お問い合わせ">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<div class="container">
   <main>
-    <section class="feature">
-      <img src="./img/concept.jpg" alt="concept">
-      <div class="text-area">
-        <div class="section-title">
-          私たちの考えるジュエリーとは
-        </div>
-        <p class="section-subtitle">Concept</p>
+    <section id="concept" class="content">
+      <div class="img">
+        <img src="./img/concept.jpg" alt="">
       </div>
-      <p>テキストテキストテキストテキストテキストテキ
-        <br>ストテキストテキストテキスト
-        <br>テキストテキストテキストテキストテキストテキ
-        <br>テキストテキストテキスト</p>
+      <div class="text">
+        <h2 class="section-title">私たちの考えるジュエリーとは</h2>
+        <span class="section-title-en">Concept</span>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
     </section>
 
-    <section class="feature-reverce">
+    <section id="concept-reverce" class="content">
+      <div class="img">
+        <img src="./img/concept.jpg" alt="">
+      </div>
+      <div class="text-reverce">
+        <h2 class="section-title">私たちの考えるジュエリーとは</h2>
+        <span class="section-title-en">Works</span>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+    </section>
+
+
+    <!-- <section class="feature-reverce">
       <div class="text-area">
         <div class="section-title">
           私たちの考えるジュエリーとは
         </div>
         <p class="section-subtitle">Work</p>
+        <p>テキストテキストテキストテキストテキストテキ
+          <br>ストテキストテキストテキスト
+          <br>テキストテキストテキストテキストテキストテキ
+          <br>テキストテキストテキスト</p>
       </div>
-      <p>テキストテキストテキストテキストテキストテキ
-        <br>ストテキストテキストテキスト
-        <br>テキストテキストテキストテキストテキストテキ
-        <br>テキストテキストテキスト</p>
       <img src="./img/work.jpg" alt="work">
-    </section>
+    </section> -->
   </main>
 
   <footer id="footer">
     <ul>
-      <li>Wooden Jewelry</li>
+      <li id="bold">Wooden Jewelry</li>
       <li>&copy; Wooden Jewelry</li>
     </ul>
   </footer>
+</div>
 </body>
 </html>
